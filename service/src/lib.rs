@@ -865,7 +865,7 @@ pub fn rococo_new_full(
 		FullNodeHandles,
 	), ServiceError>
 {
-	let (service, client, handles) = new_full!(
+	let (service, client, handles, _, _) = new_full!(
 		config,
 		collating_for,
 		max_block_data_size,
