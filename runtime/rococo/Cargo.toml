@@ -128,7 +128,6 @@ std = [
 	"proxy/std",
 	"recovery/std",
 	"sp-runtime/std",
-	"sp-staking/std",
 	"scheduler/std",
 	"session/std",
 	"society/std",
